@@ -1,2 +1,0 @@
-MAINTAINER m4kvn
-
