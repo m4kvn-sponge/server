@@ -5,4 +5,4 @@ DIR=$(cd $(dirname $0) && pwd)
 DATA=$DIR/DATA
 FILE=$(ls $DATA | grep "forge-.*-universal.jar")
 
-cd $DATA && java -Xmx4096M -Xms1024M -jar $FILE
+cd $DATA && java -Xmx3G -Xms1G -d64 -jar $FILE nogui
